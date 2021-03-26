@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+    />
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Curso de HTML e CSS Básico - HTML e CSS Pro</title>
+  </head>
+  <body>
+    <!-- start MENU=============================================== -->
+    <header class="header">
+      <div class="content">
+        <div class="logo fl-left">
+          <a href="#">
+            <img src="./images/logo.png" alt="HTML e CSS Pro" />
+          </a>
+        </div>
+
+        <a href="" class="nav-toggle fl-right">
+          <i class="fas fa-bars"></i> MENU
+        </a>
+
+        <nav class="nav">
+          <p class="text-right">
+            <span class="nav-close">
+              <i class="fas fa-times"></i>
+            </span>
+          </p>
+          <ul>
+            <li><a href="#destinos">Barcos e Lanchas</a></li>
+            <li><a href="#destaques">Destaques </a></li>
+            <li><a href="#testemunhas">Testemunhas</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- end MENU===================================================== -->
+
+    <!-- start SEARCH E ESTATISTICAS================================== -->
+    <section class="section">
+      <div class="search-box bg-fixed">
+        <header>
+          <h1>Lorem Ipsum placeholder</h1>
+          <p class="tagline">Commonly used in the graphic</p>
+        </header>
+
+        <form action="" method="POST" name="formSearch">
+          <input
+            type="search"
+            name="search"
+            id="busca"
+            placeholder="Pesquisar"
+          />
+          <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+
+      <div class="estatisticas">
+        <div class="estatisticas-item">
+          <span>2,000</span>
+          <p>Lorem</p>
+        </div>
+        <div class="estatisticas-item">
+          <span>10,00</span>
+          <p>Ipsum</p>
+        </div>
+        <div class="estatisticas-item">
+          <span>1,500</span>
+          <p>dolor</p>
+        </div>
+        <div class="estatisticas-item">
+          <span>15,000</span>
+          <p>sit amet</p>
+        </div>
+      </div>
+    </section>
+    <!-- end SEARCH E ESTATISTICAS================================== -->
+
+    <!-- start DESTINOS============================================= -->
+    <section class="section" id="destinos">
+      <div class="content">
+        <header class="section-header">
+          <h1>Escolha seu destino preferido</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt
+          </p>
+        </header>
+        <div class="row">
+          <div class="destinos-col">
+            <div class="box">
+              <div class="box-name">Lanchas</div>
+              <div class="box-cover">
+                <img
+                  src="images/destino-1.jpg"
+                  alt="Figueira da Fox - Portugal"
+                />
+              </div>
+              <div class="box-detalhes">
+                <div class="box-detalhes-info">
+                  <h1>Figueira da Fox</h2>
+                  <p>Portugal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="destinos-col">
+            <div class="box">
+              <div class="box-name">Lanchas</div>
+              <div class="box-cover">
+                <img
+                  src="images/destino-2.jpg"
+                  alt="Figueira da Fox - Portugal"
+                />
+              </div>
+              <div class="box-detalhes">
+                <div class="box-detalhes-info">
+                  <h1>Figueira da Fox</h2>
+                  <p>Portugal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="destinos-col">
+            <div class="box">
+              <div class="box-name">Lanchas</div>
+              <div class="box-cover">
+                <img
+                  src="images/destino-3.jpg"
+                  alt="Figueira da Fox - Portugal"
+                />
+              </div>
+              <div class="box-detalhes">
+                <div class="box-detalhes-info">
+                  <h1>Figueira da Fox</h2>
+                  <p>Portugal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="destinos-col">
+            <div class="box">
+              <div class="box-name">Lanchas</div>
+              <div class="box-cover">
+                <img
+                  src="images/destino-4.jpg"
+                  alt="Figueira da Fox - Portugal"
+                />
+              </div>
+              <div class="box-detalhes">
+                <div class="box-detalhes-info">
+                  <h1>Figueira da Fox</h2>
+                  <p>Portugal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="destinos-col">
+            <div class="box">
+              <div class="box-name">Lanchas</div>
+              <div class="box-cover">
+                <img
+                  src="images/destino-5.jpg"
+                  alt="Figueira da Fox - Portugal"
+                />
+              </div>
+              <div class="box-detalhes">
+                <div class="box-detalhes-info">
+                  <h1>Figueira da Fox</h2>
+                  <p>Portugal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--start-carregar mais-->
+        <div class="row">
+          <div class="content text-center">
+            <button class="loadmore">CARREGAR MAIS</button>
+          </div>
+        </div>
+        <!--end-carregar mais-->
+
+      </div>
+    </section>
+
+    <!-- end DESTINOS=============================================== -->
+
+    <!-- start PARALLAX============================================= -->
+    <div class="parallax bg-fixed">
+      <div class="content">
+        <h1>ENCONTROU O BARCO PREFERIDO?</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+        <button>SAÍBA MAIS</button>
+      </div>
+    </div>
+    <!-- end PARALLAX=============================================== -->
+
+    <!-- start DESTAQUES=============================================== -->
+    <section class="section"  id="destaques">
+      <div class="content">
+        <header class="section-header">
+          <h1>Destaques</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod
+          </p>
+        </header>
+
+        <div class="row">
+          <div class="destaques-col">
+            <div class="box">
+              <div class="box-name">Lanchas</div>
+              <div class="box-cover">
+                <img
+                  src="images/destaque-1.jpg"
+                  alt="Figueira da Fox - Portugal"
+                />
+              </div>
+              <div class="box-detalhes">
+                <div class="box-detalhes-info">
+                  <h1>Figueira da Fox</h2>
+                  <p>Portugal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="destaques-col">
+            <div class="box">
+              <div class="box-name">Lanchas</div>
+              <div class="box-cover">
+                <img
+                  src="images/destaque-2.jpg"
+                  alt="Figueira da Fox - Portugal"
+                />
+              </div>
+              <div class="box-detalhes">
+                <div class="box-detalhes-info">
+                  <h1>Figueira da Fox</h2>
+                  <p>Portugal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="destaques-col">
+            <div class="box">
+              <div class="box-name">Lanchas</div>
+              <div class="box-cover">
+                <img
+                  src="images/destaque-3.jpg"
+                  alt="Figueira da Fox - Portugal"
+                />
+              </div>
+              <div class="box-detalhes">
+                <div class="box-detalhes-info">
+                  <h1>Figueira da Fox</h2>
+                  <p>Portugal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="destaques-col">
+            <div class="box">
+              <div class="box-name">Lanchas</div>
+              <div class="box-cover">
+                <img
+                  src="images/destaque-4.jpg"
+                  alt="Figueira da Fox - Portugal"
+                />
+              </div>
+              <div class="box-detalhes">
+                <div class="box-detalhes-info">
+                  <h1>Figueira da Fox</h2>
+                  <p>Portugal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--start-carregar mais-->
+        <div class="row">
+          <div class="content text-center">
+            <button class="loadmore">CARREGAR MAIS</button>
+          </div>
+        </div>
+        <!--end-carregar mais-->
+      </div>
+    </section>
+    <!--end DESTAQUES============================================= -->
+
+    <!--start TESTEMUNHAS ======================================== -->
+    <section class="section testemunhas bg-fixed" id="testemunhas">
+      <div class="content">
+        <header class="section-header">
+          <h1>Testemunhas</h1>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+        </header>
+
+        <article class="testemunhas-article">
+          <h1>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</h1>
+          <span class="image">
+            <img src="images/testemunha-01.jpg" alt="">
+          </span>
+          <p>
+            <span class="name">Jane Doe</span>
+            <span>CEO - Facebook</span>
+          </p>
+        </article>
+
+        <article class="testemunhas-article">
+          <h1>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</h1>
+          <span class="image">
+            <img src="images/testemunha-02.jpg" alt="">
+          </span>
+          <p>
+            <span class="name">Jane Doe</span>
+            <span>CEO - Facebook</span>
+          </p>
+        </article>
+
+        <article class="testemunhas-article">
+          <h1>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</h1>
+          <span class="image">
+            <img src="images/testemunha-03.jpg" alt="">
+          </span>
+          <p>
+            <span class="name">Jane Doe</span>
+            <span>CEO - Facebook</span>
+          </p>
+        </article>
+      </div>
+    </section>
+    <!--end TESTEMUNHAS ========================================== -->
+
+    <!--start FOOTER ============================================= -->
+    <footer class="footer">
+      <div class="content">
+        <div class="footer-col">
+          <h1>Sobre a Empresa</h1>
+          <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
+        </div>
+
+        <div class="footer-col">
+          <h1>Links Úteis</h1>
+          <ul class="footer-col-links-uteis">
+            <li><a href="#">Dolor pulvinar sed etiam.</a></li>
+            <li><a href="#">Dolor pulvinar sed etiam.</a></li>
+            <li><a href="#">Dolor pulvinar sed etiam.</a></li>
+            <li><a href="#">Dolor pulvinar sed etiam.</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h1>Social</h1>
+          <ul class="footer-col-social">
+            <li><a href="#"><i class="fab fa-twitter"></i>Twitter</a></li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
+          </ul>
+        </div>
+
+        <div class="row text-center footer-autorais">
+          Todos os direitos reservados
+        </div>
+      </div>
+    </footer>
+    <!--end FOOTER =============================================== -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
